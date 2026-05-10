@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://freetp.org\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://freetp\\.ru(.*)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
